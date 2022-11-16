@@ -1,0 +1,146 @@
+
+footer {
+    background: #333;
+    padding: 40px 20px 10px;
+    float: left;
+    width: 100%;
+}
+
+.footer-logo img {
+    width: 100%;
+    max-width: 160px;
+    margin-bottom: 10px;
+}
+
+.social-links a img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-links a {
+    margin-left: 15px;
+}
+
+.footer-main-para {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 1.35em;
+}
+
+.footer-heading {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.footer-link {
+    display: block;
+    margin-bottom: 4px;
+    color: #ccc;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-d-right-section {
+    text-align: right;
+}
+
+.bc-footer__terms {
+    padding: 10px 0 15px;
+    display: flex;
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-row {
+    float: left;
+    width: 100%;
+}
+
+.copyright {
+    margin-right: 15px;
+    display: inline-block;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: .85rem;
+    color: #fff;
+}
+
+.bc-footer__terms a {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: .85rem;
+    color: #ccc;
+}
+
+.bc-footer__terms a span {
+    margin: 0 5px;
+}
+
+.btn.btn-contact {
+    display: inline-block;
+    padding: 3px 10px;
+    height: auto;
+    margin-bottom: 8px;
+    background: #1266b3;
+    font-weight: 600;
+    font-size: .92rem;
+    vertical-align: middle;
+    border-radius: 2px;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    border: none;
+}
+
+.bc-footer__accessibility {
+    font-size: .83rem;
+    color: #9f9f9f;
+    line-height: .85rem;
+    margin: 10px 0;
+}
+
+footer .back-to-top-img {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ccc;
+    position: relative;
+    border: none;
+    margin-left: 10px;
+}
+
+footer span.back-to-top-img {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 1.2em;
+    font-size: 1.1em;
+}
+
+footer .back-to-top-img:before {
+    content: "";
+    display: block;
+    border-left: solid 7px transparent;
+    border-bottom: solid 7px #333;
+    border-right: solid 7px transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -5px 0 0 -7px;
+}
